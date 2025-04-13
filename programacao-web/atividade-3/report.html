@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atores de Voz</title>
+    
+    <style>
+        body {
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: url("assets/bgsite.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        table {
+            font-size: 28px;
+            border-collapse: collapse;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        a {
+            font-size: 25px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .nav-links {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-container {
+            text-align: center;
+        }
+
+        .form-buttons {
+            margin-top: 20px;
+        }
+
+        .form-buttons input {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Reporte bugs do jogo abaixo!</h1>
+    </div>
+
+    <div class="nav-links">
+        <a href="home.html">Início</a> |
+        <a href="trailer.html">Trailer</a> |
+        <a href="voice-actors.html">Dubladores</a> |
+        <a href="category.html">Categoria</a> |
+        <a href="sugetoes.html">Formulário</a> |
+        <a href="report.html">Relatório</a>
+    </div>
+
+    <form class="form-container">
+        <table border="1">
+            <tr>
+                <td>Onde o bug ocorreu?</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="local" name="local" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Quando o bug ocorreu?</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="data" name="data" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Como o bug ocorreu?</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="descricao" name="descricao" style="width: 100%;">
+                </td>
+            </tr>
+            <tr>
+                <td>Alguma imagem do bug?</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="imagem" name="imagem" style="width: 100%;">
+                </td>
+            </tr>
+        </table>
+        <div class="form-buttons">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+
+</html>

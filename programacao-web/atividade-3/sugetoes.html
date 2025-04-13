@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sugestões!</title>
+    
+    <style>
+        body {
+            font-size: 50px; /* Aumenta o tamanho da fonte */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-size: 32px; /* Aumenta o tamanho do título */
+        }
+        p {
+            font-size: 30px; /* Aumenta o tamanho do texto dos parágrafos */
+        }
+        table {
+            font-size: 28px; /* Aumenta o tamanho da fonte dentro da tabela */
+        }
+        a {
+            font-size: 25px; /* Aumenta o tamanho da fonte dos links em 25% */
+        }
+    </style>
+</head>
+<body background="assets/bgsite.jpg">
+    <center>
+        <h1 align="center">Sugestões!</h1>
+        <form>
+            <div>
+                <a href="home.html">Início</a> |
+                <a href="trailer.html">Trailer</a> |
+                <a href="voice-actors.html">Dubladores</a> |
+                <a href="category.html">Categoria</a> |
+                <a href="sugetoes.html">Formulário</a> |
+                <a href="report.html">Relatório</a>
+            </div>
+            <table>
+                <tr>
+                    <td><label for="name">Nome:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="suggestion">Sugestão:</label></td>
+                    <td><textarea id="suggestion" name="suggestion" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

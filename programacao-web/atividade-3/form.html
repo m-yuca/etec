@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Form</title> 
+</head>
+<body background="assets/bgsite.jpg"></body>
+
+    <h1>Formulário de Cadastro</h1>
+    <form action="process_form.php" method="post">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <p>Selecione seu gênero:</p>
+
+  <input type="radio" id="masculino" name="genero" value="masculino">
+  <label for="masculino">Masculino</label><br>
+
+  <input type="radio" id="feminino" name="genero" value="feminino">
+  <label for="feminino">Feminino</label><br>
+  <input type="radio" id="outro" name="genero" value="outro">
+  <label for="outro">Outro</label><br>
+  <p>quais classes você mais joga?</p>
+  <input type="checkbox" id="pyro" name="jogos" value="pyro">
+  <label for="pyro">Pyro</label><br>
+
+  <input type="checkbox" id="medic" name="jogos" value="medic">
+  <label for="medic">Medic</label><br>
+
+  <input type="checkbox" id="Heavy" name="jogos" value="Heavy">
+  <label for="Heavy">Heavy</label><br>
+
+  <input type="checkbox" id="spy" name="jogos" value="spy">
+  <label for="spy">Spy</label><br>
+  <input type="checkbox" id="sniper" name="jogos" value="sniper">
+  <label for="sniper">Sniper</label><br>
+ 
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <div>
+        <a href="home.html">Home</a>
+        <a href="trailer.html">Trailer </a>
+        <a href="voice-actors.html">Voice-actors</a>
+        <a href="category.html">Category</a>
+        <a href="form.html">Form</a>
+    </div>
+</html>
