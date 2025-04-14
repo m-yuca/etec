@@ -1,2 +1,1 @@
-# etec
- 
+https://m-yuca.github.io/etec/
